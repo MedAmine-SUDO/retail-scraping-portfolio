@@ -19,6 +19,9 @@ env/
 *.sqlite
 *.log
 
+# LibreOffice lock files
+.~lock.*
+
 # Environment variables — NEVER commit these
 .env
 .env.*
