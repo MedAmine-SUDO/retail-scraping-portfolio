@@ -1,0 +1,20 @@
+# Core scraping
+requests==2.31.0
+beautifulsoup4==4.12.3
+lxml==5.1.0
+selenium==4.18.1
+webdriver-manager==4.0.1
+
+# Data processing & export
+pandas==2.2.0
+openpyxl==3.1.2
+sqlalchemy==2.0.27
+
+# Scheduling & monitoring
+schedule==1.2.1
+
+# Airflow (install separately — see airflow-pipeline/README.md)
+# apache-airflow==2.8.1
+
+# Utilities
+python-dotenv==1.0.1

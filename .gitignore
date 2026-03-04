@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Data outputs (don't commit scraped data)
+*.xlsx
+*.csv
+*.db
+*.sqlite
+*.log
+
+# Environment variables — NEVER commit these
+.env
+.env.*
+secrets.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Airflow
+airflow.cfg
+airflow.db
+logs/
